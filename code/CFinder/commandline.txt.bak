@@ -1,0 +1,15 @@
+./mcl ./complex.corum.independent.set.binary.graph.txt -I 6 --abc -o ./complex.corum.mcl.I60.independent.set.binary.graph.txt.out.txt
+
+./mcl ./complex.hprd.independent.set.binary.graph.txt -I 6 --abc -o ./complex.hprd.mcl.I60.independent.set.binary.graph.txt.out.txt
+
+mcl <-|fname> --abc -o fname-out
+
+./generateComplexes-release.exe ./complex.corum.independent.set.binary.graph.txt>./complex.corum.independent.set.binary.graph.txt.dapg.out.txt
+
+ ./generateComplexes-release.exe ./complex.hprd.independent.set.binary.graph.txt>./complex.hprd.independent.set.binary.graph.txt.dapg.out.txt
+
+ java -jar cluster_one.jar [options] input_file
+
+ CFinder_commandline64.exe -i complex.corum.independent.set.binary.graph.txt
+
+  CFinder_commandline64.exe -i complex.hprd.independent.set.binary.graph.txt
